@@ -1,0 +1,19 @@
+Após uma query escrita, várias atualizações programadas serão executadas.
+
+Então a solução é salvar a query no próprio banco de dados.
+
+Escreve-se a palavra reservada CREATE VIEW e dá-se o nome da nova view. Ex.: vw_vendas AS
+
+  Então um objeto de banco de dados será criado dentro do banco de dados e salvo na pasta Exibições/nome do view que foi criado.
+
+  CREATE VIEW vw_vendas AS 
+
+  F5 ou atualizar o banco de dados e a nova pasta será exibida como vw_vendas.
+
+------------------------------------------------------------------------------------
+A criação da linha de código a seguir vai salvar uma VIEW que pode rodar na periodicidade de uso do programador.
+
+SELECT * FROM vw_vendas
+
+
+  
